@@ -1,0 +1,49 @@
+/* Allies */
+.ally-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 3%;
+}
+.ally-container-paginas {
+  width: 90%;
+  margin: auto;
+  padding: 3% 0;
+}
+.ally-title {
+  text-align: center;
+  font-family: Montserrat-Bold;
+  margin: 3rem 0;
+  font-size: 1.6rem;
+}
+.ally-container-items {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ally-item {
+  width: auto;
+  height: 4rem;
+  margin: 2% 2%;
+  margin-top: 2%;
+}
+
+.ally-item-cenit {
+  height: 12rem;
+  margin: 0 2%;
+}
+
+@media (max-width: 1400px) {
+  .ally-container-items {
+    margin-top: 5%;
+    display: block;
+  }
+  .ally-item {
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+  .ally-item-smcc {
+    height: 4rem;
+  }
+}

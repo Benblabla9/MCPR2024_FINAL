@@ -1,0 +1,13 @@
+.img-div-center{
+    width: auto;
+    height: 4rem;
+    margin:1% 2%;
+    margin-top: 2%;
+  }
+  .img-centro-vert-hor{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

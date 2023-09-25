@@ -1,0 +1,99 @@
+/* Conferences */
+.conferences-container{
+  background-color: #ecedf1; 
+  padding: 7% 0 6%;
+}
+.conferences-title{
+  font-family: Montserrat-Bold;
+  color:var(--primary);
+  font-size: 1.6rem;
+}
+.conferences-container-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.conferences-item{
+  margin:3.5rem 1.5rem 1rem 1.5rem;
+  width: 24%;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.conference-item-img {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.conference-item-img-0 {
+  background-image: url("../images/Material pagina web/Fotografias/fabio.jpg");
+  background-size: 52%;
+}
+
+.conference-item-img-1 {
+  background-image: url("../images/Material pagina web/Fotografias/karray_book.jpg");
+}
+
+.conference-item-img-2 {
+  background-image: url("../images/Material pagina web/Fotografias/efren.jpeg");
+}
+
+.conferences-item:hover{
+  transform: scale(1.05);
+}
+.conferences-item-img{
+  width: 100%;
+  height: auto;
+}
+.conferences-container-content{
+  margin-top: 6%;
+}
+.conferences-item-content-container{
+  background-color: var(--primary);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5%;
+  height: 5.8rem;
+  display: flex;
+}
+.conferences-item-title{
+  font-family: Montserrat-Bold;
+  margin: auto;
+}
+.conferences-item-name{
+  font-family: Montserrat-SemiBold;
+  color:var(--secondary);
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.conferences-item-schedule{
+  display: flex;
+  margin: 0 7%;
+  text-align: left;
+}
+.conferences-item-schedule-hour{
+  font-family: Montserrat-Bold;
+  text-align: left;
+  margin: 1% 7%;
+}
+
+/* Media queries */
+@media (max-width: 850px) {
+  .conferences-container-item{
+    display: block;
+  }
+  .conferences-item{
+    width: 75%;
+    margin:2rem auto;
+  }
+}
+@media (min-width: 1200px){
+  .conferences-item-content-container{
+    height: 6rem;
+  }
+}

@@ -1,0 +1,133 @@
+/* Vitas */
+.vitas-modal{
+    border-radius: 20px;
+    border:none;
+}
+.vitas-modal-container{
+    width: 100%;
+    display: flex;
+    padding: 0 5% 3% 5%;
+    align-items: center;
+}
+.vitas-modal-name{
+    font-family: Montserrat-Bold;
+    color:solid var(--primary);
+    padding: 0 0 2% 0;
+}
+.vitas-modal-img-conferences{
+    width: auto;
+    height: 200px;
+}
+.vitas-modal-img-others{
+    width: 50%;
+    height: auto;
+}
+.vitas-modal-content{
+    font-size: 0.65rem;
+    margin:0;
+}
+.vitas-modal-container-text{
+    width: 70%;
+    text-align: left;
+    margin-right: 3%;
+}
+
+.vitas-modal-container-img{
+    text-align: center;
+}
+.vitas-model-from{
+    display: flex;
+    align-items: center;
+    margin-top:3%;
+}
+.vitas-model-from-p{
+    margin: 0;
+}
+.vitas-model-from-flag{
+    margin-left: 5%;
+    width: 30px;
+    height: auto;
+}
+.vitas-model-from-linkedin{
+    margin-left: 3rem;
+    width: 30px;
+    height: auto;
+}
+
+
+
+/* Tutorials */
+.tutorials-modal{
+    border-radius: 20px;
+    border:none;
+}
+.tutorials-modal-container{
+    width: 100%;
+    padding: 0 5% 5% 5%;
+    align-items: center;
+}
+.tutorials-modal-container-vita{
+    display: flex;
+    margin-bottom: 4%;    
+}
+.tutorials-modal-name{
+    font-family: Montserrat-Bold;
+    color:solid var(--primary);
+}
+.tutorials-modal-container-text{
+    width: 70%;
+    text-align: left;
+    margin-right: 5%;
+}
+.tutorials-modal-schedule{
+    font-family: Montserrat-SemiBold;
+    border-left:solid var(--secondary);
+    padding: 0 1rem;
+}
+.tutorials-modal-img{
+    width: 60%;
+    height: auto;
+}
+.tutorials-modal-subtitle{
+    font-family: Montserrat-Bold;
+    color:var(--dark-gray);
+    margin: 0.2rem 0;
+}
+.tutorials-modal-container-img{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
+.tutorials-modal-content{
+    font-size: 0.8rem;
+    margin:0;
+}
+
+/* Media queries */
+@media (max-width: 991px) {
+    .vitas-modal-container{
+        display: block;
+    }
+    .vitas-modal-container-text{
+        width: 100%;
+    }
+    .vitas-modal-container-img{
+        width: 60%;
+        margin: 5% auto;
+    }
+    .tutorials-modal-container-vita{
+        display: block;
+        margin-bottom: 15%;
+    }
+    .tutorials-modal-container-vita>div{
+        width: 100%;
+    }   
+}
+@media (min-width:1200px){
+    .vitas-modal-container-img{
+        width: 27%;
+    }
+    .vitas-modal-content{
+        font-size: 1rem;
+    }
+}

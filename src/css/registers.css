@@ -1,0 +1,21 @@
+/* Register */
+.registers-container{
+  width: 60.5%;
+  margin: 6% auto 6%;
+  background-color: var(--primary);
+  border-radius: 30px;
+  padding: 3% 3% 2.2%;
+  color:white;
+}
+.registers-title{
+  text-align: center;
+  font-family: Montserrat-Bold;
+  font-size: 1.6rem;
+}
+.registers-content{
+  line-height: 1.4;
+  margin: 1.4% 3.5% 1%;
+  font-size: 1.04rem;
+}
+
+/* Media queries */

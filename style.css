@@ -1,0 +1,87 @@
+.carousel {
+  height: 500px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.carousel-overlay {
+  background-color: rgba(0, 0, 0, 0.498);
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 50s linear infinite;
+  display: flex;
+  justify-content: space-between;
+  width: 200%;
+}
+
+.track img {
+  width: 100px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.card {
+  border-radius: 25px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.timeline-time::before {
+  content: "";
+  display: block;
+  width: 10px; /* Diámetro del círculo */
+  height: 10px; /* Diámetro del círculo */
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%; /* Para hacerlo circular */
+  position: absolute;
+  left: 12px; /* Colocar a la izquierda */
+  transform: translateY(10px);
+  content: "";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.track img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}

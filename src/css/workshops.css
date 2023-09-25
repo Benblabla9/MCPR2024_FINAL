@@ -1,0 +1,365 @@
+/* Talleres */
+.workshops-container-inicio{
+  padding: 0% 0 6%;
+  width: 52%;
+  margin: auto;
+  align-content: center;
+}
+.workshops-container{
+  padding: 0% 0 6%;
+  width: 52%;
+  margin: auto;
+  align-content: center;
+}
+
+.workshops-title{
+  text-align: center;
+  font-family: Montserrat-Bold;
+  color: var(--primary);
+  font-size: 1.6rem;
+  padding: 20% 0 8%;
+  margin-top: -5%;
+}
+.workshops-title-inicio{
+  text-align: center;
+  font-family: Montserrat-Bold;
+  color: var(--primary);
+  font-size: 1.6rem;
+  padding: 11% 0 0%;
+  margin-top: -4%;
+}
+.workshops-description{
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  margin-top: 5.5%;
+  align-items: center;
+  margin-right: 4%;
+}
+.workshops-description-left{
+  width: 48%;
+  margin-top: -1.2%;
+  text-align: end;
+}
+.workshops-description-right{
+  width: 48%;
+  font-size: 1.04rem;
+  text-align: left;
+  line-height: 1.25;
+  text-align: justify;
+  margin-bottom: 3%;
+}
+.workshops-description-izquierda{
+  width: 43%;
+  margin-top: -5.2%;
+  text-align: end;
+}
+.workshops-description-derecha{
+  width: 50%;
+  margin-right: 3%;
+  font-size: 1.04rem;
+  text-align: left;
+  line-height: 1.25;
+  text-align: justify;
+}
+.workshops-button{
+  text-align: center;
+  margin-top: 7.5%;
+}
+.workshops-description-img{
+  width: 380px;
+  height: auto;
+}
+.workshops-bold{
+  color:var(--dark-gray);
+}
+
+.workshops-relevant-date{
+  text-align: justify;
+  margin-top: 4%;
+  margin-left: 13%;
+  width: 75%;
+  padding: 4% 18.5% 5.2%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.workshops-relevant-button{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.innovation-container{
+  padding-top: 0%;
+  padding-bottom: 3%;
+  width: 43%;
+  text-align: justify;
+}
+
+.innovation-text{
+  margin-top: 3%;
+  line-height: 1.25;
+  text-align: justify;
+  font-size: 1.04rem;
+}
+
+.workshops-item-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 4.5% 0;
+}
+.workshops-container-items {
+  display: flex;
+}
+.workshops-item{
+  width: 47%;
+  padding: 3%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .2s;
+  background-color: white;
+}
+.workshops-item-individual{
+  width:96%;
+  margin:2rem auto;
+}
+.workshops-container-imgs{
+  padding: 1rem;
+  margin:1rem;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+}
+.workshops-item:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) ;
+}
+.workshops-item-sup{
+  display: flex;
+  margin-bottom: 5px;
+  padding-bottom: 1rem;
+}
+.workshops-item-title{
+  font-family: Montserrat-Bold;
+  color:var(--primary);
+  font-size: 1.3rem;
+}
+.workshops-item-name{
+  font-family: Montserrat-Medium;
+  color:var(--secondary);
+  margin-top: 10%;
+  font-size: 1rem;
+}
+.workshops-item-img{
+  width: 115px;
+  height: auto;
+}
+.workshops-item-sup-reduced{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.workshops-item-img-reduced{
+  width: auto;
+  height: 60px;
+}
+.workshops-item-schedule{
+  display: flex;
+  font-family: Montserrat-SemiBold;
+  margin:0;
+  text-align: left;
+  font-size: 1rem;
+}
+.workshops-item-part{
+  font-family: Montserrat-SemiBold;
+  color:var(--secondary);
+  width: 18%;
+}
+
+.workshops-item-schedule-text{
+  width: 82%;
+}
+
+.map-container-3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-3 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/* Media queries */
+@media (max-width: 950px) {
+  .workshops-description{
+      display: block;
+  }
+  .workshops-description-right{
+      width: 100%;
+  }
+  .workshops-description-left{
+      width: 100%;
+      margin-bottom: 10%;
+      text-align: center;
+  }
+  .workshops-container-items {
+      display: block;
+  }
+  .workshops-description-img{
+      width: 70%;
+  }
+  .workshops-container-imgs{
+      display: block;
+  }
+  .workshops-item-container{
+      display: block;
+  }
+  .workshops-item{
+      width: 100%;
+      margin: 2rem 0;
+  }
+  .workshops-item-sup{
+      display: block;
+  }
+  .workshops-relevant-date{
+    padding: 4% 9.5% 5.2%;
+  }
+}
+@media (min-width:950px) and (max-width:1300px){
+  .workshops-item{
+      width: 100%;
+      margin: 2rem 1rem;
+  }
+  .workshops-item-individual{
+      margin: 2rem auto;
+  }
+  .workshops-item-sup{
+      display: block;
+  }
+}
+@media (max-width:1400px){
+  .innovation-container{
+    padding-top: 0%;
+    padding-bottom: 3%;
+    width: 70%;
+    text-align: justify;
+  }
+  .workshops-container-inicio{
+    padding: 0% 0 6%;
+    width: 70%;
+    align-content: center;
+  }
+  .workshops-container{
+    padding: 0% 0 6%;
+    width: 80%;
+    align-content: center;
+  }
+  .workshops-description-right{
+    width: 80%;
+    font-size: 1.04rem;
+    text-align: left;
+    line-height: 1.25;
+    text-align: justify;
+    margin-bottom: 3%;
+  }
+  .workshops-description-img{
+    width: 280px;
+    height: auto;
+  }
+ 
+}
+@media (min-width:1800px){
+  .workshops-button{
+      margin-top:7%;
+  }
+}
+@media (max-width:1400px){
+  .workshops-button{
+      margin-top:5%;
+  }
+  .workshops-description-left{
+      width: 83%;
+  }
+  .workshops-description-right{
+      width: 100%;
+  }
+  .map-container{
+    width: 400px;
+}
+}
+@media (max-width:400px){
+  .workshops-description-img{
+    width: 223px;
+    height: auto;
+    margin-left: 10%;
+  }
+  .workshops-description-right{
+    font-size: x-small;
+  }
+  .workshops-relevant-date{
+    width: 100%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-left: 0;
+  }
+}
+@media (min-width:400px) and (max-width:600px){
+  .workshops-description-img{
+    width: 223px;
+    height: auto;
+    margin-left: 10%;
+  }
+  .workshops-description-right{
+    font-size: small;
+  }
+  .workshops-relevant-date{
+    width: 100%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-left: 0;
+  }
+}
+@media (min-width:951px) and (max-width:1400px){
+  .workshops-description-img{
+    width: 223px;
+    height: auto;
+    margin-left: 10%;
+  }
+  .workshops-description-right{
+    font-size: small;
+    margin-left: 3%;
+  }
+  .workshops-relevant-date{
+    width: 100%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-left: 0;
+  }
+}
+@media (min-width:1401px) and (max-width:1490px){
+  .workshops-description-img{
+    width: 312px;
+    height: auto;
+    margin-left: 10%;
+  }
+  .workshops-description-right{
+    font-size: 12px;
+    margin-left: 3%;
+  }
+  .workshops-relevant-date{
+    width: 100%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-left: 0;
+  }
+}
+@media (min-width:320px) and (max-width:1400px){
+  .workshops-title{
+      padding: 10% 0 0;
+      margin: 2rem 1rem;
+  }
+}

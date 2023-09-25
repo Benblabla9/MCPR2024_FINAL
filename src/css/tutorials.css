@@ -1,0 +1,129 @@
+/* Tutorials */
+.tutorials-container{
+  padding: 0 0 2.3% 0;
+}
+.tutorials-title{
+  font-family: Montserrat-Bold;
+  padding: 7% 2rem 2rem 2rem;
+  color:white;
+  margin-bottom: 4%;
+  font-size: 1.6rem;
+}
+.tutorials-banner{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.tutorials-container-item{
+  width: 70%;
+  margin:auto auto 1.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tutorials-item{
+  width: 45%;
+  margin: 1.5%;
+  padding: 3%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .2s;
+  background-color: #e7e8ec;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.tutorials-item:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) ;
+}
+.tutorials-item-sup{
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.tutorials-item-type{
+  font-family: Montserrat-Bold;
+  color:var(--primary);
+  font-size: 1.2rem;
+}
+.tutorials-item-title{
+  font-family: Montserrat-Bold;
+  color:var(--primary);
+}
+.tutorials-item-name{
+  font-family: Montserrat-Medium;
+  color:var(--secondary);
+  margin-top: 10%;
+}
+.tutorials-item-images{
+  display: flex;
+  margin:0.5rem;
+  justify-content: center;
+}
+.tutorials-item-img{
+  width: auto;
+  height: 115px;
+  margin:0.5rem;
+}
+.tutorials-schedule-container{
+  display: flex;
+  width: 97%;
+  margin: auto;
+}
+.tutorials-item-schedule{
+  font-family: Montserrat-SemiBold;
+  padding: 0 0.5rem;
+  margin:0;
+  text-align: left;
+}
+.tutorials-modal-theme{
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+/* Media queries */
+@media (max-width: 500px) {
+  .tutorials-item{
+    width: 100%;
+    margin:1rem 0;
+    padding: 1rem;
+  }
+  .tutorials-item-sup{
+    display: block;
+  }
+  .tutorials-item-img{
+    height: 70px;
+  }
+}
+@media (min-width: 500px) and (max-width: 920px) {
+  .tutorials-item{
+    width: 100%;
+    margin:2rem 0;
+    padding: 1rem;
+  }
+}
+@media (min-width: 920px) and (max-width: 1400px) {
+  .tutorials-item-img{
+    height: 70px;
+  }
+  .tutorials-item-images{
+    display: block;
+  }
+  .tutorials-item-title{
+    font-size: 1rem;
+  }
+}
+@media (min-width:500px) and (max-width:700px){
+  .tutorials-title{
+    padding: 12rem 2rem 0 2rem;
+    color:black;
+  }
+}
+@media (min-width:700px) and (max-width:1000px){
+  .tutorials-title{
+    padding: 3rem 2rem 0 2rem;
+  }
+}

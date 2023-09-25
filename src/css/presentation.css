@@ -1,0 +1,97 @@
+/* Presentation */
+.presentation-container{
+  margin-top: auto;
+  padding: 7.5% 27.5% 6.8%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.carousel-item {
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.carousel-item-1{
+  background-image: url("../images/tepic/tepic1.jpg");
+  background-position-y: -300px;
+}
+
+.carousel-item-2{
+  background-image: url("../images/tepic/tepic2.jpg");
+  background-position-y: -300px;
+}
+
+.carousel-item-3{
+  background-image: url("../images/tepic/Imagen\ UT3\ \ 1x.png");
+  background-position-y: -300px;
+}
+
+.carousel-item-4{
+  background-image: url("../images/tepic/fabrica.jpg");
+  background-position-y: -300px;
+}
+
+.carousel-item-5{
+  background-image: url("../images/tepic/palaciodegobierno.jpg");
+  background-position-y: -300px;
+}
+
+.presentation-container-principal{
+  padding: 4% 4% 2%;
+  background-color: #ffffffd2;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 5%;
+}
+.presentation-title{
+  font-family: Montserrat-Bold;
+  font-size: 2.4rem;
+  color:var(--primary);
+  margin-bottom: 18px;
+}
+.presentation-content{
+  font-size: 1.16rem;
+  line-height: 1.22;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.presentation-date{
+  margin-top: 1.4%;
+  font-size: 1.04rem;
+  margin-bottom: 0;
+}
+.presentation-modality{
+  font-size: 1.04rem;
+  margin-top: -5px;
+  margin-bottom: 3%;
+}
+.presentation-container-important{
+  background-color: var(--secondary);
+  padding: 5% 0;
+}
+.presentation-container-important-title{
+  font-family: Montserrat-SemiBold;
+}
+.presentation-container-important-p{
+  font-family: Montserrat-SemiBold;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .presentation-container {
+    padding: 24% 7% 11%;
+  }
+  .presentation-container-principal{
+    margin-top: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .presentation-container {
+    padding: 15% 10% 11%;
+  }
+}

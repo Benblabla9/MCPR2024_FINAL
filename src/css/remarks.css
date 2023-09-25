@@ -1,0 +1,84 @@
+/* Remarks */
+.remark-container{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+}
+.remark-container-left{
+    width: 85%;
+    padding: 3% 5%;
+}
+.remark-container-left-title{
+    font-family: Montserrat-Bold;
+    color:var(--primary);
+    margin-bottom: 5%;
+}
+.remark-item{
+    display: flex;
+    margin-bottom: 1%;
+}
+.remark-item>*{
+    margin:0;
+}
+.remark-item>h6{
+    font-family: Montserrat-Bold;
+    width: 120px;
+}
+
+.remark-container-right{
+    width: 50%;
+    height: auto;
+    background-color: var(--primary);
+    border-radius: 30px;
+    color:white;
+    padding: 3%;
+    text-align: center;
+}
+.remark-title-form{
+    text-align: center;
+    font-family: Montserrat-Bold;
+}
+.remark-content-form{
+    margin: 10% 0;
+}
+.remark-container-right-a{
+    color: white;
+    text-decoration: none;
+}
+.remark-container-right-a:hover{
+    color: white;
+}
+.remark-separator{
+    padding-top: 8%;
+}
+
+/* Media queries */
+@media (max-width: 900px) {
+    .remark-container{
+        display: block;
+    }
+    .remark-item>h6{
+        width: 200px;
+    }
+    .remark-container-left{
+        margin:0;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .remark-container-left-title{
+        margin-bottom: 13%;
+    }
+    .remark-container-right{
+        margin:0;
+        width: 100%;
+        padding: 15% 4%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px) {
+    .remark-item>h6{
+        width: 100px;
+    }
+    .remark-content-button>a{
+        font-size: 17px;
+    }
+}

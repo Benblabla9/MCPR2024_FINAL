@@ -1,0 +1,31 @@
+/* Program */
+.program-container{
+    background-color: white;
+    padding: 8% 0 0% 0;
+}
+.programs-title{
+    text-align: center;
+    font-family: Montserrat-Bold;
+    padding: 1rem;
+    padding-top: 5%;
+    font-size: 1.6rem;
+}
+.programs-day{
+    font-family: Montserrat-Bold;
+}
+.programs-hour{
+    font-family: Montserrat-Medium;
+}
+.programs-tutorial-title{
+    font-family: Montserrat-Bold;
+    color: var(--primary);
+}
+.programs-tutorial-workshop{
+    font-family: Montserrat-SemiBold;
+    color: var(--dark-gray);
+}
+
+/* Media queries */
+@media (max-width: 900px) {
+
+}

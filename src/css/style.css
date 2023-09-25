@@ -1,0 +1,142 @@
+/* Fonts */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+/* Vars */
+:root{
+  --primary:#0b1f37;
+  --secondary:#0b43c2;
+  --dark-gray:#4d4d4d;
+  --gray:#e7e8ec;
+}
+
+/* Labels*/
+body{
+  background-color: #fff;
+  /* background: url("../images/Página\ web\ SIBIA\ 2022.png");
+  background-size: contain; */
+  font-family: Montserrat-Regular;
+}
+a{text-decoration: none;}
+h1{font-size: 2rem;}
+td{border-style: none;}
+ul{list-style: none;margin:0;padding: 0;}
+b{
+  font-family: Montserrat-Bold;
+}
+
+/* Miscelaneous */
+.w-90{width:90%;}
+.w-80{width:80%;}
+.w-70{width:70%;}
+.w-60{width:60%;}
+.w-30{width: 30%;}
+.w-20{width: 20%;}
+
+.blue-separator{
+  width: 5rem;
+  height: 0.2rem;
+  background-color: var(--secondary);
+}
+
+.blue-vertical{
+  width: 2px;
+  margin: 6px 0;
+  background-color: var(--secondary);
+}
+
+.button{
+  font-family: Montserrat-SemiBold;
+  background-color: var(--secondary);
+  padding: 0.7rem 4.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+.button:hover{color:white;}
+.button-disabled{
+  cursor:auto;
+}
+
+.bk-primary{background-color: var(--primary);
+width: 100%;}
+.bk-gray{background-color: var(--gray);}
+
+.color-white{color:white;}
+.color-gray{color:#6f768f;}
+.color-dark-gray{color:var(--dark-gray);}
+.color-primary{color:var(--primary);}
+.color-secondary{color:var(--secondary);}
+
+.time-zone-p{
+  font-size: 1.04rem;
+  color:var(--dark-gray);
+  margin:0;
+  padding: 2% 0;
+}
+
+/* Modal */
+.b-none{
+  border:none;
+}
+
+@media (max-width:350px){
+  .button{
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+  }
+}
+@media (min-width:350px) and (max-width:500px){
+  .button{
+    padding: 0.7rem 1.5rem;
+    font-size: 18px;
+  }
+}
+@media (max-width:1400px){
+  .w-70{
+    width: 80%;
+    margin-right: -40%;
+  }
+  .w-50{
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+  .w-50.text-end{
+    margin-top: -10%;
+    margin-left: 35%;
+  }
+}
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+
+}
+
+.comingsoon{
+  background-color: #4d4d4d;
+  font-family: Montserrat-SemiBold;
+  text-align: center;
+  font-size:48px;
+}

@@ -1,0 +1,133 @@
+/* Paneless */
+.panel-container{
+  padding: 7% 22% 0%;
+  /* background-color: white; */
+}
+.panel-title{
+  text-align: center;
+  font-family: Montserrat-Bold;
+  color:var(--primary);
+  font-size: 1.6rem;
+  margin-bottom: 5%;
+}
+.panel-subtitle{
+  text-align: justify;
+  color:var(--dark-gray);
+  font-size: 1.04rem;
+  width: 100%;
+  line-height: 1.4;
+  margin-left: 1%;
+}
+.panel-lista{
+  margin-left: 8%;
+}
+.panel-container-items {
+  display: flex;
+  justify-content: center;
+}
+.panel-item{
+  width: 18%;
+  margin: 2% 1.6%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .2s;
+  background-color: white;
+  text-align: center;
+}
+.panel-item:hover{
+  transform: scale(1.05);
+}
+.panel-item-title{
+  font-family: Montserrat-Medium;
+  color:var(--primary);
+}
+.panel-thirthTitle{
+  margin-top: 6%;
+}
+.panel-fourthTitle{
+  margin-top: 3%;
+}
+.panel-item-name{
+  font-family: Montserrat-Bold;
+  color:var(--secondary);
+  margin-top: 10%;
+  margin-bottom: 4px;
+}
+.panel-item-img{
+  width: auto;
+  height: auto; 
+}
+
+/* Media queries */
+@media (max-width: 800px) {
+    .panel-container-items {
+        display: block;
+    }
+    .panel-item-container{
+        display: block;
+    }
+    .panel-item{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    .panel-item-sup{
+        display: block;
+    }
+}
+@media (min-width:800px) and (max-width:1300px){
+    .panel-item{
+        width: 100%;
+        margin: 2rem 1rem;
+    }
+    .panel-item-individual{
+        margin: 2rem auto;
+    }
+    .panel-item-sup{
+        display: block;
+    }
+}
+@media (min-width:1400px){
+    .panel-button{
+        margin-top:5%;
+    }
+}
+@media (max-width:1400px){
+  .panel-container{
+      width: 100%;
+      padding: 7% 8% 0%;
+  }
+  .panel-title{
+    text-align: center;
+    font-family: Montserrat-Bold;
+    color:var(--primary);
+    font-size: 1.6rem;
+    margin-top: 15%;
+  }
+}
+@media (min-width:1500px){
+    .panel-button{
+        margin-top:8%;
+    }
+}
+@media (min-width:1700px){
+    .panel-button{
+        margin-top:10%;
+    }
+}
+@media (min-width:1800px){
+    .panel-button{
+        margin-top:15%;
+    }
+}
+@media (min-width:2000px){
+    .panel-button{
+        margin-top:5%;
+    }
+    .panel-description-left{
+        width: 83%;
+    }
+    .panel-description-right{
+        width: 15%;
+    }
+}
